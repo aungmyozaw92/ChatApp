@@ -55,7 +55,8 @@
         		cursor: pointer;
 
         		&.selected {
-        			background: lightblue;
+        			background: #00796b;
+                    color: #fff;
         		}
 
         		.avatar {
