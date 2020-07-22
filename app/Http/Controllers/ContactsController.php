@@ -49,6 +49,7 @@ class ContactsController extends Controller
 
     	return response()->json($messages);
     }
+    
     public function send(Request $request)
     {
         $message = Message::create([
